@@ -1,0 +1,725 @@
+.event-custom-price {
+    padding: 0;
+    margin: 0;
+}
+
+.event-custom-price li {
+    list-style: none;
+}
+
+.mt-main-wraper .mep_event_list_item {
+    border: none;
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.mt-main-wraper .mep_event_native_list .mep_list_thumb,
+.mt-main-wraper .mep_event_minimal_list .mep_list_thumb,
+.mt-main-wraper .mep_event_list_item .mep_list_thumb {
+    width: 170px;
+}
+
+.mt-main-wraper .mep_event_native_list .mep_list_event_details,
+.mt-main-wraper .mep_event_minimal_list .mep_list_event_details,
+.mt-main-wraper .mep_event_list_item .mep_list_event_details {
+    width: calc(100% - 170px);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    padding: 50px;
+}
+
+.mep-list-header::before {
+    display: none;
+}
+
+.mt-main-wraper .mep-list-header {
+    padding-left: 0;
+}
+
+.mt-main-wraper .mep_event_native_list .mep-list-header {
+    min-height: auto;
+}
+
+.mt-main-wraper .mep_event_native_list .mep_list_thumb img,
+.mt-main-wraper .mep_event_list_item .mep_list_thumb img,
+.mep_event_native_list .mep_list_thumb img,
+.owl-carousel .owl-item .mep_event_native_list .mep_list_thumb img {
+    border-radius: 100%;
+    border: 2px solid #ffbe4c;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.mt-main-wraper .mep_minimal_list_date {
+    padding: 8px 20px;
+    background: #fff7e9;
+    color: #ffbe4c;
+    border-radius: 50px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.mt-main-wraper h3.mep_list_date {
+    font-size: 14px;
+    margin-top: 25px;
+    font-style: normal;
+}
+
+.mt-main-wraper .mep_list_event_details a {
+    overflow: visible;
+}
+
+.mt-main-wraper h2.mep_list_title {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+h3.mep_list_date i {
+    padding-right: 8px;
+}
+
+.mt-main-wraper .pagination-sec span.page-numbers.current {
+    padding: 0;
+    background: #f50056;
+    color: #fff;
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.mt-main-wraper a.page-numbers {
+    background: #f5f5f5;
+    color: #333;
+    padding: 0 10px;
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.mep_event_grid_item h3.mep_list_date,
+.mep_event_list_item h3.mep_list_date {
+    color: #333;
+    margin-top: 15px;
+}
+
+.mep_event_grid_item h3.mep_list_date span.amount,
+.mep_event_list_item .mep_list_date .amount {
+    padding: 5px 20px;
+    background: #f7f7f7;
+    color: #ffbe4c;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.mt-main-wraper .mep_event_grid_item {
+    box-shadow: none;
+}
+
+.mt-main-wraper .mep_event_grid_item .mep_list_thumb img {
+    height: auto;
+}
+
+.mt-main-wraper .mep_event_list_item .mep_list_thumb img {
+    min-height: auto;
+}
+
+.mt-main-wraper .mep_event_minimal_list:hover {
+    background: #fff;
+}
+
+.mt-main-wraper .mep_event_grid_item,
+.mt-main-wraper .timeline__content,
+.mt-main-wraper .timeline__item:after,
+.mt-main-wraper .timeline-nav-button {
+    border-color: #eef1f7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mt-main-wraper .timeline__content:before {
+    border-left-color: #eef1f7;
+}
+
+.mt-main-wraper .timeline__item--right .timeline__content:before {
+    border-right-color: #eef1f7;
+}
+
+.mt-main-wraper .timeline--horizontal .timeline__item .timeline__content:before {
+    border-top-color: #eef1f7;
+}
+
+.mt-main-wraper .timeline--horizontal .timeline__item--bottom .timeline__content:before {
+    border-bottom-color: #eef1f7;
+}
+
+.mt-main-wraper .timeline:not(.timeline--horizontal):before,
+.mt-main-wraper .timeline--horizontal .timeline-divider {
+    background-color: #eef1f7;
+}
+
+.mt-main-wraper .mep_event_timeline_list .mep_minimal_list_date {
+    display: block;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.mt-main-wraper .mep_event_timeline_list h2.mep_list_title {
+    font-size: 18px;
+}
+
+.mt-main-wraper .mep_event_native_list .mep_more_date_btn {
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.woocommerce-checkout .nice-select {
+    border-radius: 50px;
+    height: 60px;
+    line-height: 58px;
+}
+
+/*custom css start*/
+
+span.mep_minimal_list_location {
+    margin-top: 8px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+div.df-dtl p {
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.mep-default-sidrbar-meta i,
+.df-ico i,
+ul.mep-social-share a {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+ul#mep_add_calender_links li {
+    display: inline-block;
+}
+
+ul#mep_add_calender_links li a {
+    padding: 3px 10px;
+    font-size: 13px;
+}
+
+#mep_add_calender_button.mep-add-calender {
+    height: auto;
+    padding: 10px 20px;
+}
+
+.mep-default-sidrbar-events-schedule ul li,
+.mep-default-sidrbar-events-schedule ul li:last-child,
+.mep-default-sidrbar-address ul {
+    padding-left: 0;
+}
+
+.mep-default-title h2,
+.section-heading h2,
+.mep-default-sidrbar-events-schedule h3,
+.mep-default-sidrbar-social .mep-event-meta {
+    color: #58495e;
+}
+
+.mep-default-sidebar .df-sidebar-part {
+    background: none;
+}
+
+.default_theme .mep-default-sidrbar-price-seat,
+.mep-default-sidrbar-address,
+.mep-default-sidrbar-events-schedule,
+.mep-default-sidrbar-social {
+    border-bottom: none;
+    background: #f9f9f9;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.mep-default-sidrbar-meta {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.mep-default-sidrbar-address ul li span {
+    line-height: 1.6;
+}
+
+.mep-default-title h2 {
+    margin-bottom: 30px;
+}
+
+.mep_event_native_list h2 {
+    color: #58495e;
+}
+
+.mep_event_list_item h3.mep_list_date i {
+    color: #ffbe30;
+}
+
+.mep-list-footer ul li h5,
+.mep-list-footer ul li h6,
+.mep-list-footer ul li h5 {
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.mep-ev-start-date {
+    padding: 5px 0;
+    line-height: 16px;
+    font-size: 16px;
+}
+
+.mep-ev-start-date div {
+    line-height: normal;
+    display: inline-block;
+}
+
+.mep_event_grid_item .mep-list-footer {
+    padding: 10px 0 0px;
+}
+
+.mage_grid_box .timeline.timeline--loaded,
+.mep_event_list .owl-theme .owl-dots {
+    margin: auto;
+}
+
+.mage_grid_box.owl-carousel .owl-nav button.owl-next,
+.mage_grid_box.owl-carousel .owl-nav button.owl-prev {
+    background: #ff0165;
+    width: 30px;
+    height: 30px;
+    font-size: 30px !important;
+    color: #fff !important;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mage_grid_box.owl-carousel .owl-nav button.owl-next span,
+.mage_grid_box.owl-carousel .owl-nav button.owl-prev span {
+    height: auto;
+    line-height: 20px;
+    margin-top: -5px;
+}
+
+.mage_grid_box.owl-theme .owl-dots .owl-dot.active span,
+.mage_grid_box.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff0165;
+}
+
+.one_column.mep_event_list_item .mep-ev-start-date {
+    top: 140px;
+    left: 20px;
+    background: none;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 0;
+    min-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mep-ev-start-date {
+    width: 90px;
+}
+
+button.mep-cat-control.mixitup-control-active {
+    background: #f5f5f5;
+}
+
+.mep-events-cats-list .mep-event-cat-controls {
+    text-align: center;
+}
+
+.mep-events-wrapper table td {
+    color: #58495e;
+}
+
+.nice-select.extra-qty-box.etp {
+    width: 100%;
+}
+
+.mep-events-wrapper .extra-qty-box,
+.mep-events-wrapper table td {
+    border: 1px solid #e2eff4;
+}
+
+.mep-events-wrapper .mage_input_group {
+    border: none;
+    background-color: transparent;
+    width: auto;
+}
+
+.mep-events-wrapper .mage_input_group input {
+    border: 1px solid #e2eff4;
+    margin: 0 5px;
+}
+
+.mep-events-wrapper td.ticket-qty,
+.mep-events-wrapper td.ticket-price,
+.mep-events-wrapper .mage_text_center,
+.mep-events-wrapper table td.total-col {
+    text-align: left;
+}
+
+.mep-events-wrapper .mage_input_group {
+    max-width: inherit;
+}
+
+.mep-events-wrapper table .mage_input_group span {
+    width: 25px;
+    color: #fff;
+    height: 25px;
+    background: #ff0165;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 100%;
+}
+
+.nice-select.extra-qty-box.etp {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+}
+
+.df-sidebar-part .mep-event-meta {
+    padding: 0;
+}
+
+.mep-list-footer ul li i {
+    background: none !important;
+    color: #ffbe30;
+}
+
+.mep-event-list-loop:hover div.item_hover_effect {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+}
+
+div.item_hover_effect {
+    background-color: #0009;
+    display: flex;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+.mep_list_event_details .item_hover_effect a {
+    border-color: transparent;
+    font-size: 16px;
+    padding: 12px 20px;
+}
+
+.equinox .calendar-header .month-label {
+    font-size: 20px;
+}
+
+.equinox .calendar-actions button {
+    border: none;
+    padding: 4px 12px;
+    line-height: normal;
+    background: #fff;
+    margin-right: 5px;
+}
+
+.equinox .calendar .week-header .day {
+    color: #333;
+}
+
+.mep_event_list_item.mep-event-list-loop:hover div.item_hover_effect {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+
+.mep_event_list_item.mep-event-list-loop div.item_hover_effect a {
+    padding: 6px 10px;
+    min-width: max-content;
+}
+
+.mep_event_list button.owl-next {
+    right: -45px;
+}
+
+.mep_list_event_details p {
+    line-height: normal;
+}
+
+.mep_event_list_item .mep_list_thumb .mep-multidate-ribbon {
+    top: 180px;
+    bottom: auto;
+    right: 20px;
+    left: 0;
+}
+
+.mt-main-wraper .mep_event_list_item.mep_event_minimal_list .mep_list_event_details {
+    width: 100%;
+}
+
+.mt-main-wraper .mep_event_list_item.mep_event_minimal_list .mep_list_thumb {
+    width: auto;
+    position: absolute;
+    right: 0;
+}
+
+.mt-main-wraper .mep_event_list_item.mep_event_minimal_list {
+    position: relative;
+}
+
+.mt-main-wraper .mep_event_list_item.mep_event_minimal_list .mep-ev-start-date {
+    left: auto;
+    right: 10px;
+    top: 10px;
+}
+
+.owl-item .mep_list_event_details {
+    margin: 15px;
+}
+
+.owl-item .mep_event_list_item.mep_event_minimal_list .mep-ev-start-date {
+    top: 20px;
+    right: 20px;
+}
+
+.mep-city-list ul li a {
+    padding: 20px 0;
+}
+
+.mep-city-list ul li:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.equinox .event {
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+}
+
+.mt-main-wraper .equinox .month-weeks {
+    background-color: #fffafa;
+}
+
+.mt-main-wraper .equinox .date-label,
+.mt-main-wraper .equinox .date.current-date .date-label {
+    color: #333;
+}
+
+.mt-main-wraper .equinox .date.current-date {
+    background-color: #fff0f0;
+}
+
+.mt-main-wraper .equinox .date.current-date:before {
+    border-color: #fff0f0;
+}
+
+.mep-default-sidebar-speaker-list ul {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.df-sidebar-part .mep-default-sidebar-speaker-list ul {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.mep-default-sidebar-speaker-list ul li {
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 5%);
+    width: auto;
+    height: auto;
+}
+
+.mep-default-sidebar-speaker-list ul li h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0 5px;
+}
+
+.mep-default-sidebar-speaker-list h3 {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-color: #eee;
+}
+
+.mep_events_speaker_wraper .mep_speaker_thumbnail img {
+    height: 200px;
+    border: 1px solid #eee;
+    padding: 0px;
+    width: 200px;
+    margin-bottom: 40px;
+    object-fit: scale-down;
+    border-radius: 10px;
+}
+
+.mep_events_speaker_wraper .mep_speaker_name h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.mep_event_list .mep_cat-details {
+    margin-bottom: 30px;
+}
+
+.mep_event_list .mep_cat-details h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.mep_speaker_thumbnail,
+.mep_speaker_name {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mep_events_speaker_wraper {
+    position: relative;
+}
+
+.mep_speaker_name {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    margin-left: 30px;
+}
+
+.mep_speaker_details {
+    display: inline-block;
+    width: calc(100% - 220px);
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.mep-events-wrapper p:not(.mep-events-wrapper .mep-default-feature-content p, .ui-accordion .ui-accordion-content) {
+    margin-top: 3px;
+}
+
+.mep-event-list-loop.grid .mep_list_event_details {
+    margin: 0;
+}
+
+.mep-list-footer ul.mp_event_more_date_list {
+    border-top: 0;
+    border-bottom: 0;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 7%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.mep-list-footer ul.mp_event_more_date_list li {
+    border-top: 1px solid #eee;
+    border-bottom: 0;
+    padding-top: 5px;
+}
+
+.mep-list-footer ul.mp_event_more_date_list li:first-child {
+    border: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.mep-list-footer ul.mp_event_more_date_list li:hover {
+    border-radius: 10px;
+}
+
+/*custom css end*/
+
+/*responsive css start*/
+
+@media screen and (max-width:991px) {
+    .mep-default-sidebar-speaker-list ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .mt-main-wraper .mep_event_native_list .mep_list_event_details,
+    .mt-main-wraper .mep_event_minimal_list .mep_list_event_details,
+    .mt-main-wraper .mep_event_list_item .mep_list_event_details {
+        padding: 30px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    div.mep_event_native_list {
+        display: block;
+    }
+    .mep_event_list div.one_column {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+    .mt-main-wraper .mep_event_list_item .mep_list_thumb {
+        margin-bottom: 30px;
+    }
+    .mep_event_list_item .mep_list_thumb .mep-multidate-ribbon {
+        position: unset;
+        margin-top: 50px;
+    }
+    .mep_speaker_name {
+        display: block;
+        position: unset;
+        margin-left: 0;
+    }
+    .mep_speaker_details {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .mep_events_speaker_wraper .mep_speaker_thumbnail img {
+        margin-bottom: 20px;
+    }
+    .mep-default-sidebar-speaker-list ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .mt-main-wraper .mep_minimal_list_date {
+        padding: 8px 10px;
+        border-radius: 5px;
+        font-weight: 400;
+    }
+    .mt-main-wraper .mep_event_native_list .mep_list_event_details,
+    .mt-main-wraper .mep_event_minimal_list .mep_list_event_details,
+    .mt-main-wraper .mep_event_list_item .mep_list_event_details {
+        padding: 20px;
+    }
+    table#mep_event_ticket_type_table tr td,
+    table#mep_event_ticket_type_table tr th {
+        margin-bottom: 5px;
+        border: none;
+        background: #f9f9f9;
+        padding: 10px;
+    }
+    table#mep_event_ticket_type_table tr {
+        display: flex;
+        flex-direction: column;
+    }
+    .mep-default-sidebar-speaker-list ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*responsive css end*/
